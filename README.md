@@ -2,6 +2,8 @@
 
 An Apache Pig storage function for DynamoDB, by [Mortar Data](http://www.mortardata.com).
 
+[![Build Status](https://travis-ci.org/mortardata/pig-dynamodb.svg?branch=master)](https://travis-ci.org/mortardata/pig-dynamodb)
+
 ## Features
 
 * **Automatic write throttling**: Writes are automatically throttled and balanced across Hadoop tasks to match your DynamoDB table's write throughput.
